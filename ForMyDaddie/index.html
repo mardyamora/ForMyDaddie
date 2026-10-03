@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For My Daddie ♡</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         WELCOME + PASSCODE SCREEN
+    ========================== -->
+
+    <div id="passcode-screen">
+
+        <div class="welcome">
+
+            <div class="little-heart">
+                ♡
+            </div>
+
+            <div class="subtitle">
+                A little something for you
+            </div>
+
+            <h1>
+                Hello, Daddie
+            </h1>
+
+            <p class="message">
+                I made this little corner of the internet
+                just for you.
+            </p>
+
+            <div class="passcode-section">
+
+                <label for="passcode">
+                    Enter our special date
+                </label>
+
+                <input
+                    type="password"
+                    id="passcode"
+                    maxlength="4"
+                    inputmode="numeric"
+                    placeholder="••••"
+                    autocomplete="off"
+                >
+
+                <button id="enter-button">
+                    ENTER
+                </button>
+
+                <p id="message"></p>
+
+                <div id="mommie-reaction">
+
+                    <img
+                        src="mommie-crying.jpg"
+                        alt="Crying Mommie"
+                    >
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         ENVELOPE SCREEN
+    ========================== -->
+
+    <div id="envelope-screen">
+
+        <div id="envelope-wrapper">
+
+            <div id="envelope">
+
+                <div class="envelope-body"></div>
+
+                <div class="letter-paper">
+
+                    <div class="letter-content">
+
+                        <p class="letter-opening">
+                            To my Daddie,
+                        </p>
+
+                        <p>
+                            I don't think I could ever fit everything
+                            I feel for you into one little letter...
+                        </p>
+
+                        <p>
+                            But I still wanted to make this little
+                            corner of the internet just for us.
+                        </p>
+
+                        <p>
+                            Happy monthsary, Daddie.
+                            I love you more than words can properly say.
+                        </p>
+
+                        <p class="letter-signature">
+                            Always yours,<br>
+                            Mommie ♡
+                        </p>
+
+                        <button id="continue-button">
+                            CONTINUE ♡
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="envelope-flap"></div>
+
+                <div class="envelope-seal">
+                    ♡
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         MEMORIES SECTION
+    ========================== -->
+
+    <section id="memories-screen">
+
+        <div class="memories-container">
+
+            <div class="memories-scroll-cue">
+                <span>SCROLL</span>
+                <div class="scroll-arrow">↓</div>
+            </div>
+
+            <p class="memories-small-title">
+                A LITTLE PIECE OF US
+            </p>
+
+            <h2>
+                Our Memories
+            </h2>
+
+            <p class="memories-intro">
+                A few little moments that became
+                some of my favorite memories.
+            </p>
+
+            <audio id="our-song" loop>
+                <source src="Mommie.mp3" type="audio/mpeg">
+            </audio>
+
+            <button id="music-toggle">
+                ♫ PLAYING
+            </button>
+
+
+            <!-- =========================
+                 MEMORY GRID
+            ========================== -->
+
+            <div class="memory-grid">
+
+                <div class="memory-card">
+
+                    <div class="memory-photo">
+                        <img
+                            src="memory-1.jpg"
+                            alt="Our memory"
+                        >
+                    </div>
+
+                    <p class="memory-date">
+                        June 6, 2026
+                    </p>
+
+                    <p class="memory-caption">
+                        The beginning of us ♡
+                    </p>
+
+                </div>
+
+
+                <div class="memory-card">
+
+                    <div class="memory-photo">
+                        <img
+                            src="memory-2.jpg"
+                            alt="Our memory"
+                        >
+                    </div>
+
+                    <p class="memory-date">
+                        A little moment
+                    </p>
+
+                    <p class="memory-caption">
+                        One of my favorite days.
+                    </p>
+
+                </div>
+
+
+                <div class="memory-card">
+
+                    <div class="memory-photo">
+                        <img
+                            src="memory-3.jpg"
+                            alt="Our memory"
+                        >
+                    </div>
+
+                    <p class="memory-date">
+                        Another memory
+                    </p>
+
+                    <p class="memory-caption">
+                        Just you and me.
+                    </p>
+
+                </div>
+
+
+                <div class="memory-card">
+
+                    <div class="memory-photo">
+                        <img
+                            src="memory-4.jpg"
+                            alt="Our memory"
+                        >
+                    </div>
+
+                    <p class="memory-date">
+                        One more
+                    </p>
+
+                    <p class="memory-caption">
+                        I would choose this moment again.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 MEMORY ENDING
+            ========================== -->
+
+            <div class="memory-ending">
+
+                <p class="memory-ending-small">
+                    AND THIS IS ONLY THE BEGINNING
+                </p>
+
+                <p class="memory-ending-text">
+                    There are still so many places we'll go,
+                    so many memories we'll make,
+                    and so many little moments
+                    I haven't gotten to love with you yet.
+                </p>
+
+                <p class="memory-ending-date">
+                    June 6, 2026 — and counting ♡
+                </p>
+
+                <div class="memory-ending-heart">
+                    ♡
+                </div>
+
+                <a
+                    href="movie.html"
+                    class="movie-button"
+                >
+                    CONTINUE TO OUR MOVIE ♡
+                </a>
+
+            </div>
+
+
+            <!-- =========================
+                 EXPANDED MEMORY VIEWER
+            ========================== -->
+
+            <div id="memory-viewer">
+
+                <button id="close-memory">
+                    ×
+                </button>
+
+                <img
+                    id="expanded-memory"
+                    src=""
+                    alt="Expanded memory"
+                >
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
